@@ -1,0 +1,88 @@
+html {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.btn-sm {}
+
+.btn-md {}
+
+.btn-lg {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    background-color: #999;
+}
+
+.btn {}
+
+.btn-principal {
+    border: 3px solid hsl(255, 255%, 255%);
+    background-color: hsl(89, 65%, 48%);
+    color: white;
+}
+
+.btn-principal:hover {
+    background-color: hsl(89, 63%, 41%);
+}
+
+.btn-principal:focus {
+    background-color: hsl(51, 84%, 12%);
+}
+
+.btn-secondary {
+    background-color: hsl(0, 0%, 80%);
+    color: #999;
+}
+
+.btn-secondary:hover {
+    background-color: hsl(0, 0%, 65%);
+    color: white;
+}
+
+.btn-secondary:focus {
+    background-color: hsl(0, 0%, 45%);
+}
+
+.color-principal {
+    color: hsl(89, 65%, 48%);
+}
+
+
+
+
+.background-principal {
+    background-color: hsl(89, 65%, 48%);
+}

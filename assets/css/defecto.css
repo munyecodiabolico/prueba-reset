@@ -1,0 +1,76 @@
+html {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+body {}
+
+
+/* ---- GENERALS ---- */
+
+*:not(dd) {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:not(ol, ul, dl, dt) {
+    padding: 0;
+}
+
+/* ---- LISTS ---- */
+
+ul {
+    background-color: red;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1rem;
+}
+
+/* ---- TEXTS ---- */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+small {
+    font-size: medium;
+    display: block;
+    font-weight: normal;
+}
+
+sub,
+sup {
+    font-size: 60%;
+}
+
+mark {
+    padding-left: .3rem;
+    padding-right: .3rem;
+    z-index: -1;
+    position: relative;
+}
+
+
+/* ---- TABLES ---- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid red;
+}
+
+th,
+td {
+    padding: .5rem;
+    text-align: center;
+    background-color: white;
+}
